@@ -43,7 +43,7 @@ async def handle_file(client, message: Message):
     }
     save_files(data)
 
-    link = f"https://deafening-mule-farsa-f7774332.koyeb.app/dl/{token}"
+    link = f"https://obnoxious-nichole-farsa-1880b732.koyeb.app/dl/{token}"
     await message.reply(f"✅ لینک دانلود فایل:
 {link}
 
