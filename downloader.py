@@ -2,7 +2,7 @@ from flask import Flask, abort, redirect
 from helper.jsondb import get_file_info
 
 app = Flask(__name__)
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "5088657122:AAHdusGDuWfBpSDWkcX-qU1_fgzij4w8Lzk"
 
 @app.route("/<file_id>")
 def serve_file(file_id):
