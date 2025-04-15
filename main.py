@@ -3,9 +3,9 @@ from bot import setup_handlers
 from downloader import start_flask
 import threading
 
-api_id = 1234567
-api_hash = "YOUR_API_HASH"
-bot_token = "YOUR_BOT_TOKEN"
+api_id = 3335796 
+api_hash = "138b992a0e672e8346d8439c3f42ea78"
+bot_token = "5088657122:AAHdusGDuWfBpSDWkcX-qU1_fgzij4w8Lzk"
 
 app = Client("file2link_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 setup_handlers(app)
