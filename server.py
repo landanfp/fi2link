@@ -43,3 +43,7 @@ def serve_file(token):
 
     file_path = file_resp.json()["result"]["file_path"]
     return redirect(f"{CDN_URL}/{file_path}", code=302)
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))  # مهم برای Koyeb
+    app.run(host="0.0.0.0", port=port)
